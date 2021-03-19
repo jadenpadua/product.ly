@@ -1,12 +1,13 @@
 import React from 'react';
 import './App.less';
+import { Card } from './components/Card/Card';
 
-const App = () => {
-    return (
-        <div className="App">
-            <h1>Product.ly</h1>
-        </div>
-    );
+const App = (): any => {
+  return (
+    <div className="App">
+      <Card />
+    </div>
+  );
 };
 
 export default App;
